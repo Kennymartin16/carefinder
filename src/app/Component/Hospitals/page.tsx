@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from "react";
 import HospitalList from "../HospitalList/page";
 import Pagination from "../Pagination/page";
