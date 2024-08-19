@@ -40,7 +40,7 @@ const Header = () => {
               >
                 <ul className="flex lg:flex-row flex-col lg:items-center  sm:items-center">
                   <li className="my-2 lg:my-0 lg:mx-4">
-                    <Link href="#" className="text-white hover:text-gray-700 hover:font-bold">
+                    <Link href="/heropage" className="text-white hover:text-gray-700 hover:font-bold">
                       Home
                     </Link>
                   </li>

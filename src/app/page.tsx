@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Header from "./Component/Header/page";
 import HeroSection from "./heropage/page";
-// import HospitalList from "./HospitalList/page";
 import Footer from "./Component/Footer/page";
 
 

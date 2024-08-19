@@ -51,51 +51,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* <div className="border-2 border-y-rose-800 flex gap-12 mt-32 py-8 ">
-        <div>
-          <Image
-            src="/doctors.svg"
-            alt="doctors-image"
-            width={500}
-            height={1000}
-          />
-        </div>
-        <div className="text-center lg:text-left px-4">
-          <h1 className="why text-3xl lg:text-4xl mb-6">Why Choose GetAid?</h1>
-          <p className="text-lg lg:text-xl ">
-            <span className="hover:font-bold hover">
-              Trusted Professionals:
-            </span>
-            <br></br>
-            <span className="lg:mt-large">
-              We connect you with certified <br></br> and reliable medical
-              assistants.
-            </span>
-          </p>
-        </div>
-      </div> */}
-
-      {/* <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16 border-2 border-y-[#407BFF] py-8 px-4">
-        <p className="text-lg lg:text-xl text-center lg:text-left">
-          <span className="font-bold">Easy Access:</span>
-          <br />
-          Quickly discover medical assistants nearby with just a few clicks.
-          Access our services anytime, anywhere, to get the help you need.
-        </p>
-        <div className="w-full max-w-xs lg:max-w-md">
-          <Image
-            src="/Fast.svg"
-            alt="Quick Access"
-            width={700}
-            height={500}
-            className="mx-auto"
-          />
-        </div>
-      </div> */}
-
-
-
-
 
       <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16  py-8 px-4">
           <h1 className="why text-3xl lg:text-4xl mb-6">Why Choose GetAid?</h1>
