@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 interface HospitalCardProps {
@@ -34,7 +34,7 @@ const HospitalCard: React.FC<HospitalCardProps> = ({ name, address, phonenumber 
         <button onClick={handleOpenGoogleMaps}>
           <Image
             className="w-6 h-6 cursor-pointer border-2"
-            src="/icons/goto.svg"
+            src="/icons/location-icon.svg"
             alt="Google Maps"
             width={20}
             height={20}

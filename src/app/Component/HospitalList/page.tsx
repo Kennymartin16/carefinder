@@ -1,5 +1,5 @@
 import React from "react";
-import HospitalCard from "../HospitalCard/page";
+import HospitalCard from "../HospitalCard/HospitalCard";
 
 interface Provider {
   name: string;
@@ -15,7 +15,7 @@ interface HospitalListProps {
 const HospitalList: React.FC<HospitalListProps> = ({ providers }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {providers.map((provider, index) => (
+      {providers.map((provider: Provider, index) => (
         <HospitalCard
           key={index}
           name={provider.name}
