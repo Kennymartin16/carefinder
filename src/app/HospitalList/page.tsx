@@ -8,7 +8,7 @@ import {
 } from "firebase/auth";
 import { auth, firestore } from "@/../../firebase/firebase";
 import { doc, getDoc } from "firebase/firestore";
-import MyHospitals from "../Component/Hospitals/page";
+import MyHospitals from "../Component/Hospitals/Hospitals";
 import "./hospitalPage.css";
 
 const HospitalList = () => {
@@ -80,3 +80,20 @@ const HospitalList = () => {
 };
 
 export default HospitalList;
+
+
+
+// import React from "react";
+// import HospitalList from "./HospitalList";
+
+// const Page = () => {
+//   // Example providers data; replace this with real data
+//   const providers = [
+//     { name: "Hospital A", address: "123 Main St", phone_number: "123-456-7890" },
+//     { name: "Hospital B", address: "456 Oak St", phone_number: "987-654-3210" },
+//   ];
+
+//   return <HospitalList providers={providers} />;
+// };
+
+// export default Page;

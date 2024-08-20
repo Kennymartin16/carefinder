@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import HospitalList from "../HospitalList/page";
-import Pagination from "../Pagination/page";
+import HospitalList from "../HospitalList/HospitalList";
+import Pagination from "../Pagination/Pagination";
 import dynamic from 'next/dynamic';
 
 const SkeletonCard: React.FC = () => (
