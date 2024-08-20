@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 interface HospitalCardProps {
@@ -18,7 +18,7 @@ const HospitalCard: React.FC<HospitalCardProps> = ({ name, address, phonenumber 
   const [copied, setCopied] = useState<boolean>(false);
 
   const copyToClipboard = () => {
-    const textToCopy = `${name}\n${address}`;
+    const textToCopy = `${name}\n${address}\n${phonenumber}`;
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
