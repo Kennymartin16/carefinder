@@ -34,7 +34,7 @@ const HospitalCard: React.FC<HospitalCardProps> = ({ name, address, phonenumber 
         <button onClick={handleOpenGoogleMaps}>
           <Image
             className="w-6 h-6 cursor-pointer border-2"
-            src="/icons/location-icon.svg"
+            src="/icon/location-icon.svg"
             alt="Google Maps"
             width={20}
             height={20}
