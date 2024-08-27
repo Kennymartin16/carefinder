@@ -44,7 +44,7 @@ const Footer = () => {
               <p className="getaid text-3xl">Contact</p>
               <div className="flex gap-2">
                 <Image
-                  src="/icon/location-icon.svg"
+                  src="/location-icon.svg"
                   width={20}
                   height={20}
                   alt="location_logo"
@@ -53,7 +53,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-2 ">
                 <Image
-                  src="/icon/phone.svg"
+                  src="/phone.svg"
                   width={20}
                   height={20}
                   alt="phone_icon"
@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-2 ">
                 <Image
-                  src="/icon/email-icon.svg"
+                  src="/email-icon.svg"
                   width={20}
                   height={20}
                   alt="phone_icon"
