@@ -48,7 +48,7 @@ const Header = () => {
                   </li>
                   <li className="my-2 lg:my-0 lg:mx-4">
                     <Link
-                      href="#"
+                      href="/Contact"
                       className="text-white hover:text-gray-700 hover:font-bold"
                     >
                       Contact

@@ -27,13 +27,13 @@ const Footer = () => {
           <div className="text-center">
             <p className="getaid text-3xl">Quick Access</p>
             <div className="w-full items-center justify-center">
-              <Link href="/Login">
+              <Link href="/Login" className="hover:underline">
                 <p >Login</p>
               </Link>
-              <Link href="/Register">
+              <Link href="/Register" className="hover:underline">
                 <p >Sign Up</p>
               </Link>
-              <Link href="/HospitalList">
+              <Link href="/HospitalList" className="hover:underline">
                 <p >Hospitals List</p>
               </Link>
             </div>

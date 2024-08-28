@@ -31,7 +31,7 @@ const config: Config = {
       },
       margin: {
         'large': '4rem',
-        'mega': '6rem',
+        'mega': '5rem',
       }
      
     },

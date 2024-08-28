@@ -58,7 +58,7 @@ const HospitalList = () => {
   return (
     <>
       <section className="getaid flex min-h-screen flex-col items-center">
-        <div className="flex justify-between w-full space-x-4 ">
+        <div className="flex justify-between w-full space-x-4 mt-mega">
           {userName && (
             <h1 className="justify-start text-xl font-light mt-6">
               Welcome, <span className="italic lg:text-4xl md:text-2xl">{userName}!</span>
@@ -66,7 +66,7 @@ const HospitalList = () => {
           )}
           <button
             onClick={handleLogout}
-            className="px-4 py-2 bg-red-600 text-white rounded-b-md hover:bg-red-700"
+            className="px-4 bg-red-600 text-white rounded-b-md hover:bg-red-700 py-0"
           >
             Logout
           </button>
