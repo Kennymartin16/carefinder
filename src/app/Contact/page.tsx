@@ -10,13 +10,13 @@ const Rating = () => {
 
   return (
     <>
-      <section>
+      <section className="mt-mega">
         <h1 className="my-8 text-4xl tracking-tight text-center">Contact Us</h1>
         <div className="flex">
-          <div>
+          <div className="hidden md:block ">
             <Image src="/mail.svg" width={400} height={400} alt="phone_icon" />
           </div>
-          <div className=" items-center mx-auto max-w-screen">
+          <div className=" items-center mx-auto max-w-screen sm:mb-12">
             <div className="w-full max-w-md px-4 my-8">
               <Field>
                 <Description className="text-sm/6">
