@@ -20,7 +20,7 @@ pnpm dev
 - NextJs
 - Typescript
 - Firebase
--Headless UI
+- Headless UI
 
 
 ## Deploy on Vercel
