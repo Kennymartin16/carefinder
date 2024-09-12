@@ -23,17 +23,17 @@ const HospitalCard: React.FC<HospitalCardProps> = ({ name, address, phonenumber 
       .writeText(textToCopy)
       .then(() => {
         setCopied(true);
-        setTimeout(() => setCopied(false), 2000); // Reset the "copied" state after 2 seconds
+        setTimeout(() => setCopied(false), 1000);
       })
       .catch((error) => console.error("Copy failed:", error));
   };
 
   return (
     <div className="max-w-sm p-4 bg-white flex flex-col justify-between border border-gray-200 bg-gray-100 rounded-lg hover:bg-gray-200">
-      <div className="flex justify-end hover:bg-white">
-        <button onClick={handleOpenGoogleMaps}>
+      <div className="flex justify-end">
+        <button className=" hover:bg-white" onClick={handleOpenGoogleMaps}>
           <Image
-            className="w-6 h-6 cursor-pointer border-2"
+            className="w-6 h-6 cursor-pointer border"
             src="/location-icon.svg"
             alt="Google Maps"
             width={20}

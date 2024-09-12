@@ -67,7 +67,7 @@ export default function Login() {
   return (
     <>
       <div className="flex lg:flex-row mt-16 gap-10 sm:flex-col">
-        <div className="flex justify-center hidden sm:block ">
+        <div className="flex justify-center hidden sm:block mt-8">
           <Image
             src="/login.svg"
             alt="GetAid Logo"

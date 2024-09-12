@@ -71,6 +71,9 @@ body {
 .btn-minimal{
   @apply bg-white  border border-gray-300 hover:bg-gray-300 rounded-lg text-black
 };
+.btn-semi{
+  @apply py-2 px-4 bg-white  border border-button-hover hover:bg-gray-300 rounded-lg text-black
+};
 
 @layer utilities {
   .text-balance {

@@ -13,7 +13,7 @@ const Rating = () => {
       <section className="mt-mega">
         <h1 className="my-8 text-4xl tracking-tight text-center">Contact Us</h1>
         <div className="flex">
-          <div className="hidden md:block ">
+          <div className="hidden md:block -mt-12">
             <Image src="/mail.svg" width={400} height={400} alt="phone_icon" />
           </div>
           <div className=" items-center mx-auto max-w-screen sm:mb-12">
@@ -61,6 +61,9 @@ const Rating = () => {
                   );
                 })}
               </div>
+            </div>
+            <div className="text-center my-6">
+              <button className=" btn-semi">Submit</button>
             </div>
           </div>
         </div>
